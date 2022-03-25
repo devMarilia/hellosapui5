@@ -1,5 +1,11 @@
-sap.ui.define([], function () {
+sap.ui.define([
+  "sap/ui/core/mvc/XMLView"
+], function (XMLView) {
   "use strict";
 
-  alert("UI5 is ready");
+  XMLView.create({
+    viewName : "sap.ui.demo.hellosapui5.view.MainView"
+  }).then(function (oView) {
+		oView.placeAt("content");
+  });
 });

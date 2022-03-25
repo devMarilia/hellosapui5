@@ -88,7 +88,7 @@
           }
       },
       "rootView": {
-          "viewName": "sap.ui.demo.hellosapui.view.App",
+          "viewName": "sap.ui.demo.hellosapui.view.MainView",
           "type": "XML",
           "async": true,
           "id": "app"
