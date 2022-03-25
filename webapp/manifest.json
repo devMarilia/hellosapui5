@@ -5,7 +5,7 @@
 
   "sap.app": {
       "_version": "1.1.0",
-      "id": "sap.ui.demo.hellosapui",
+      "id": "sap.ui.demo.hellosapui5",
       "type": "application",
       "i18n": "i18n/i18n.properties",
       "applicationVersion": {
@@ -73,7 +73,7 @@
           "i18n": {
               "type": "sap.ui.model.resource.ResourceModel",
               "settings": {
-                  "bundleName": "sap.ui.demo.hellosapui.i18n.i18n",
+                  "bundleName": "sap.ui.demo.hellosapui5.i18n.i18n",
                   "supportedLocales": [""],
                   "fallbackLocale": ""
               },
@@ -88,7 +88,7 @@
           }
       },
       "rootView": {
-          "viewName": "sap.ui.demo.hellosapui.view.MainView",
+          "viewName": "sap.ui.demo.hellosapui5.view.MainView",
           "type": "XML",
           "async": true,
           "id": "app"
@@ -101,7 +101,7 @@
           "config": {
               "routerClass": "sap.m.routing.Router",
               "viewType": "XML",
-              "viewPath": "sap.ui.demo.hellosapui.view",
+              "viewPath": "sap.ui.demo.hellosapui5.view",
               "controlId": "app",
               "controlAggregation": "pages",
               "async": true
